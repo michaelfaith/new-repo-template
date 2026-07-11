@@ -1,13 +1,13 @@
-import { GreetOptions } from "./types.js";
+import type { GreetOptions } from './types.ts';
 
-export function greet(options: GreetOptions | string) {
-	const {
-		logger = console.log.bind(console),
-		message,
-		times = 1,
-	} = typeof options === "string" ? { message: options } : options;
+export function greet(options: GreetOptions | string): void {
+  const {
+    logger = console.log.bind(console),
+    message,
+    times = 1,
+  } = typeof options === 'string' ? { message: options } : options;
 
-	for (let i = 0; i < times; i += 1) {
-		logger(message);
-	}
+  for (let i = 0; i < times; i += 1) {
+    logger(message);
+  }
 }

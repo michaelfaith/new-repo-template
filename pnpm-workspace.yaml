@@ -1,5 +1,3 @@
 allowBuilds:
   simple-git-hooks: true
-minimumReleaseAgeExclude:
-  - tsdown@0.22.5
 trustPolicy: no-downgrade

@@ -13,13 +13,13 @@ pnpm install
 
 ## Building
 
-Run [**tsdown**](https://tsdown.dev) locally to build source files from `src/` into output files in `lib/`:
+Run [**tsdown**](https://tsdown.dev) locally to build source files from `src/` into output files in `dist/`:
 
 ```shell
 pnpm build
 ```
 
-Add `--watch` to run the builder in a watch mode that continuously cleans and recreates `lib/` as you save files:
+Add `--watch` to run the builder in a watch mode that continuously cleans and recreates `dist/` as you save files:
 
 ```shell
 pnpm build --watch
@@ -50,7 +50,7 @@ Read the individual documentation for each linter to understand how it can be co
 For example, ESLint can be run with `--fix` to auto-fix some lint rule complaints:
 
 ```shell
-pnpm run lint --fix
+pnpm lint --fix
 ```
 
 Note that you'll need to run `pnpm build` before `pnpm lint` so that lint rules which check the file system can pick up on any built files.
@@ -61,13 +61,13 @@ Note that you'll need to run `pnpm build` before `pnpm lint` so that lint rules 
 You can run it locally on the command-line:
 
 ```shell
-pnpm run test
+pnpm test
 ```
 
 Add the `--coverage` flag to compute test coverage and place reports in the `coverage/` directory:
 
 ```shell
-pnpm run test --coverage
+pnpm test --coverage
 ```
 
 Note that [console-fail-test](https://github.com/JoshuaKGoldberg/console-fail-test) is enabled for all test runs.

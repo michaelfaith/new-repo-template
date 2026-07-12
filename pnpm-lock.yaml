@@ -27,8 +27,8 @@ importers:
         specifier: 4.1.10
         version: 4.1.10(vitest@4.1.10)
       '@vitest/eslint-plugin':
-        specifier: 1.6.20
-        version: 1.6.20(@typescript-eslint/eslint-plugin@8.63.0(@typescript-eslint/parser@8.63.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)(vitest@4.1.10)
+        specifier: 1.6.22
+        version: 1.6.22(@typescript-eslint/eslint-plugin@8.63.0(@typescript-eslint/parser@8.63.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)(vitest@4.1.10)
       console-fail-test:
         specifier: 0.6.1
         version: 0.6.1
@@ -976,8 +976,8 @@ packages:
       '@vitest/browser':
         optional: true
 
-  '@vitest/eslint-plugin@1.6.20':
-    resolution: {integrity: sha512-xRwWHFG0Utp6hXtbGiWk4VdKXCGdExD8kbWrrmFEiG5dk8anOJ+vbWbeOa8EbkocKQRTsx7JAWETccZiBgFp/Q==}
+  '@vitest/eslint-plugin@1.6.22':
+    resolution: {integrity: sha512-SDHPcido/3V5NdQh1rmOIMTHSixtjUBdV3a/8aE/A3Iwx/EZtVuLRC+e0g1uenh4Yd1fjps0JIN5HUNmhdIpQQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': '*'
@@ -3227,7 +3227,7 @@ snapshots:
       tinyrainbow: 3.1.0
       vitest: 4.1.10(@types/node@24.10.1)(@vitest/coverage-v8@4.1.10)(vite@8.1.4(@types/node@24.10.1)(jiti@2.7.0)(yaml@2.9.0))
 
-  '@vitest/eslint-plugin@1.6.20(@typescript-eslint/eslint-plugin@8.63.0(@typescript-eslint/parser@8.63.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)(vitest@4.1.10)':
+  '@vitest/eslint-plugin@1.6.22(@typescript-eslint/eslint-plugin@8.63.0(@typescript-eslint/parser@8.63.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3))(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)(vitest@4.1.10)':
     dependencies:
       '@typescript-eslint/scope-manager': 8.63.0
       '@typescript-eslint/utils': 8.63.0(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)

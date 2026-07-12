@@ -1,6 +1,6 @@
 {
   "name": "new-repo-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Quickstart-friendly repo template with comprehensive, opinionated tooling.",
   "repository": {
     "type": "git",

@@ -9,6 +9,7 @@
     "node_modules",
     "package.json",
     "pnpm-lock.yaml",
-    "prettier.config.ts"
+    "prettier.config.ts",
+    "differences-with-CTA.md"
   ]
 }

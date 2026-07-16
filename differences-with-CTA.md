@@ -55,9 +55,11 @@
 
 ## VSCode Settings
 
-- change `editor.codeActionsOnSave` -> `source.fixAll.eslint` to `always`
+- remove `editor.codeActionsOnSave`
+- remove `editor.formatOnSave`
 - remove `eslint.rules.customizations`
 - change `typescript.tsdk` to ` js/ts.tsdk.path` (deprecated)
+- add language-specific `editor.defaultFormatter` for `javascript`, `javascriptreact`, `json`, `jsonc`, `markdown`, `typescript`, `typescriptreact`, `yaml`
 
 ## Other Code Changes
 

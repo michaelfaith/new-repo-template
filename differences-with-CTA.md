@@ -47,6 +47,7 @@
   - delete post-release workflow and build the release commenting into the release workflow
   - add `autorelease` tag to the octoguide if condition
 - add `node-version` matrix to test job in ci
+- add ["Engines Check"](https://github.com/michaelfaith/eslint-plugin-package-json/blob/8d847ed2180cbcfc891d7b82be69ec5b7cf7dd3b/.github/workflows/ci.yml#L52-L70) step to the CI workflow
 
 ## Prettier Config
 

@@ -24,7 +24,7 @@ jobs:
       - uses: ./.github/actions/setup
       - run: pnpm dedupe --check
 
-    engines_check:
+  engines_check:
     name: Engines Check (Node.js ${{ matrix.node-version }})
     runs-on: ubuntu-latest
     strategy:

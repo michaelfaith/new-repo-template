@@ -47,6 +47,7 @@
   - delete post-release workflow and build the release commenting into the release workflow
   - add `autorelease` tag to the octoguide if condition
 - add `node-version` matrix to test job in ci
+- add ["Engines Check"](https://github.com/michaelfaith/eslint-plugin-package-json/blob/8d847ed2180cbcfc891d7b82be69ec5b7cf7dd3b/.github/workflows/ci.yml#L52-L70) step to the CI workflow
 
 ## Prettier Config
 
@@ -69,7 +70,7 @@
 - upgrade `pnpm` to v11
 - add `pnpm-workspace.yaml` with `trustPolicy: no-downgrade` and `allowBuilds simple-git-hooks: true`
 - increase node version in nvmrc (24.18.0)
-- change engines to `^22.11.0 || ^24.11.0 || >=26.0.0`
+- change engines to `^22.13.0 || ^24.11.0 || >=26.0.0`
 - update `tsdown` to 0.22.4
 - update typescript to 6.0.3
 - update `eslint`, `@eslint/js` to v10

@@ -70,7 +70,7 @@
 - upgrade `pnpm` to v11
 - add `pnpm-workspace.yaml` with `trustPolicy: no-downgrade` and `allowBuilds simple-git-hooks: true`
 - increase node version in nvmrc (24.18.0)
-- change engines to `^22.11.0 || ^24.11.0 || >=26.0.0`
+- change engines to `^22.13.0 || ^24.11.0 || >=26.0.0`
 - update `tsdown` to 0.22.4
 - update typescript to 6.0.3
 - update `eslint`, `@eslint/js` to v10

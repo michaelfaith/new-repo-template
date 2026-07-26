@@ -101,6 +101,8 @@ jobs:
   test_os:
     name: Test (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
+    permissions:
+      id-token: write
     strategy:
       fail-fast: false
       matrix:
@@ -116,7 +118,7 @@ jobs:
         if: success() && (matrix.os == 'ubuntu-latest')
         with:
           fail_ci_if_error: true
-          token: ${{ secrets.CODECOV_TOKEN }}
+          use_oidc: true
 
   type_check:
     name: Type Check

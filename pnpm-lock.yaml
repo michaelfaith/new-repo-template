@@ -48,8 +48,8 @@ importers:
         specifier: 18.2.2
         version: 18.2.2(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))(typescript@6.0.3)
       eslint-plugin-package-json:
-        specifier: 1.6.1
-        version: 1.6.1(@types/estree@1.0.9)(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))
+        specifier: 1.6.2
+        version: 1.6.2(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))
       eslint-plugin-perfectionist:
         specifier: 5.10.0
         version: 5.10.0(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -1525,17 +1525,14 @@ packages:
       typescript:
         optional: true
 
-  eslint-plugin-package-json@1.6.1:
-    resolution: {integrity: sha512-iKcIfIYZXXb20vghnigDUemIISW9D2dMPuDZ+IGRnIOPa53+ZwU1HnsvsbSB7zGq4MAo1V9ZYfL0uTEVpCFEiQ==}
+  eslint-plugin-package-json@1.6.2:
+    resolution: {integrity: sha512-Zp0CdqXKQqB9luUYa/TOwnGq3VlLotx1UDflZOzEt3D5A5kxu3Lj1VFJ087jKudEhc+K3kF20XV/aKZAlDuslw==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       '@eslint/json': '>=1.0.0'
-      '@types/estree': '>=1.0.0'
       eslint: '>=9.0.0'
     peerDependenciesMeta:
       '@eslint/json':
-        optional: true
-      '@types/estree':
         optional: true
 
   eslint-plugin-perfectionist@5.10.0:
@@ -3817,9 +3814,10 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  eslint-plugin-package-json@1.6.1(@types/estree@1.0.9)(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0)):
+  eslint-plugin-package-json@1.6.2(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0)):
     dependencies:
       '@altano/repository-tools': 2.0.3
+      '@types/estree': 1.0.9
       change-case: 5.4.4
       detect-indent: 7.0.2
       detect-newline: 4.0.1
@@ -3831,8 +3829,6 @@ snapshots:
       semver: 7.8.5
       sort-object-keys: 2.1.0
       sort-package-json: 4.0.0
-    optionalDependencies:
-      '@types/estree': 1.0.9
 
   eslint-plugin-perfectionist@5.10.0(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3):
     dependencies:

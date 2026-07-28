@@ -48,8 +48,8 @@ importers:
         specifier: 18.2.2
         version: 18.2.2(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))(typescript@6.0.3)
       eslint-plugin-package-json:
-        specifier: 1.6.0
-        version: 1.6.0(@types/estree@1.0.9)(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))
+        specifier: 1.6.1
+        version: 1.6.1(@types/estree@1.0.9)(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))
       eslint-plugin-perfectionist:
         specifier: 5.10.0
         version: 5.10.0(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -1525,14 +1525,17 @@ packages:
       typescript:
         optional: true
 
-  eslint-plugin-package-json@1.6.0:
-    resolution: {integrity: sha512-pROaDdg6qRV7RF6qebqoXIuPBagHI1jNklZBKP0IPikfL2hW25JZnBp4Q0tmdNJZx2LIh3rgdmcqqz4CIkSuCg==}
+  eslint-plugin-package-json@1.6.1:
+    resolution: {integrity: sha512-iKcIfIYZXXb20vghnigDUemIISW9D2dMPuDZ+IGRnIOPa53+ZwU1HnsvsbSB7zGq4MAo1V9ZYfL0uTEVpCFEiQ==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       '@eslint/json': '>=1.0.0'
+      '@types/estree': '>=1.0.0'
       eslint: '>=9.0.0'
     peerDependenciesMeta:
       '@eslint/json':
+        optional: true
+      '@types/estree':
         optional: true
 
   eslint-plugin-perfectionist@5.10.0:
@@ -3814,7 +3817,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  eslint-plugin-package-json@1.6.0(@types/estree@1.0.9)(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0)):
+  eslint-plugin-package-json@1.6.1(@types/estree@1.0.9)(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0)):
     dependencies:
       '@altano/repository-tools': 2.0.3
       change-case: 5.4.4
@@ -3828,8 +3831,8 @@ snapshots:
       semver: 7.8.5
       sort-object-keys: 2.1.0
       sort-package-json: 4.0.0
-    transitivePeerDependencies:
-      - '@types/estree'
+    optionalDependencies:
+      '@types/estree': 1.0.9
 
   eslint-plugin-perfectionist@5.10.0(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3):
     dependencies:

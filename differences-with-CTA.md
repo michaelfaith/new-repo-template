@@ -50,6 +50,7 @@
 - add ["Engines Check"](https://github.com/michaelfaith/eslint-plugin-package-json/blob/8d847ed2180cbcfc891d7b82be69ec5b7cf7dd3b/.github/workflows/ci.yml#L52-L70) step to the CI workflow
 - change codecov to use oidc instead of token
 - disable `pr-branch-non-default` octoguide rule
+- absorb `checkout` into the `setup` action and use `$/` for referencing it (https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax/)
 
 ## Prettier Config
 

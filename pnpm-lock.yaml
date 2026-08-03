@@ -98,8 +98,8 @@ importers:
 
 packages:
 
-  '@altano/repository-tools@2.0.4':
-    resolution: {integrity: sha512-ZRlEjfJJ1jaEvY+ViKXv8dBR5VtOdEJxwhrWh70xJ+rcSB4LSv9p9zU5OPSxDTTMIskePhYZaqThisZFaVF8Ww==}
+  '@altano/repository-tools@2.0.5':
+    resolution: {integrity: sha512-dG0CH69cWUKaXOrfIdhldDt8zB3Tp4OQNVvnOWIS0wL+MiIkjyJC3WLFZGrO2r5anW00DxbDnEhpNHIkGCoNuw==}
 
   '@babel/code-frame@7.29.7':
     resolution: {integrity: sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw==}
@@ -2488,7 +2488,7 @@ packages:
 
 snapshots:
 
-  '@altano/repository-tools@2.0.4': {}
+  '@altano/repository-tools@2.0.5': {}
 
   '@babel/code-frame@7.29.7':
     dependencies:
@@ -3679,7 +3679,7 @@ snapshots:
 
   eslint-plugin-package-json@1.6.2(eslint@10.8.0(jiti@2.7.0)(supports-color@7.2.0)):
     dependencies:
-      '@altano/repository-tools': 2.0.4
+      '@altano/repository-tools': 2.0.5
       '@types/estree': 1.0.9
       change-case: 5.4.4
       detect-indent: 7.0.2

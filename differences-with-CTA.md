@@ -51,6 +51,7 @@
 - change codecov to use oidc instead of token
 - disable `pr-branch-non-default` octoguide rule
 - absorb `checkout` into the `setup` action and use `$/` for referencing it (https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax/)
+- migrate `pnpm/action-setup` to `pnpm/setup`
 
 ## Prettier Config
 

@@ -12,13 +12,13 @@
 
 ## tsconfig
 
-- [ ] remove `declarationMap`
+- [x] remove `declarationMap` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2426)
 - [ ] enable `isolatedModules` and `isolatedDeclarations`
   - [ ] add function return type to `greet`
-- [ ] lowercase `nodenext` to match typescript docs
+- [x] lowercase `nodenext` to match typescript docs (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2427)
 - [ ] enable `rewriteRelativeImportExtensions`
   - [ ] change all relative imports to use `.ts` extension
-- [ ] change target to `es2024` (from `es2022`)
+- [x] change target to `es2024` (from `es2022`) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2403)
 
 ## ESLint Config
 
@@ -31,8 +31,8 @@
 - [ ] only use perfectionist for export sorting (`perfectionist/sort-exports`)
 - [ ] remove `yml/sort-keys` from config
 - [ ] add config to apply `yml/sort-keys` to only the pnpm-workspace.yaml
-- [ ] remove `n/no-unpublished-bin` disable
-- [ ] enable `vitest/prefer-describe-function-title`
+- [x] remove `n/no-unpublished-bin` disable (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2400)
+- [x] enable `vitest/prefer-describe-function-title` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2419)
 - [ ] disable `n/no-unsupported-features/node-builtins` for `eslint.config.ts` and tests
 
 ## Workflows
@@ -40,14 +40,14 @@
 - [ ] re-order the properties in the workflow yaml's to be more standard order instead of alphabetical
 - [ ] re-order the properties in actions and issue_template yaml's to be more standard order
 - [ ] add empty lines between jobs in workflows
-- [ ] move all workflows to the built-in GH token instead of using PAT
+- [ ] move all workflows to the built-in GH token instead of using PAT (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2428)
 - [ ] change the node version in Prepare action to `lts/*`
-- [ ] change the name of the "Prepare" action to "Setup"
+- [x] change the name of the "Prepare" action to "Setup" (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2429)
 - [ ] release-it -> release please
   - [ ] delete post-release workflow and build the release commenting into the release workflow
   - [ ] add `autorelease` tag to the octoguide if condition
 - [ ] add `node-version` matrix to test job in ci
-- [ ] add ["Engines Check"](https://github.com/michaelfaith/eslint-plugin-package-json/blob/8d847ed2180cbcfc891d7b82be69ec5b7cf7dd3b/.github/workflows/ci.yml#L52-L70) step to the CI workflow
+- [ ] add ["Engines Check"](https://github.com/michaelfaith/eslint-plugin-package-json/blob/8d847ed2180cbcfc891d7b82be69ec5b7cf7dd3b/.github/workflows/ci.yml#L52-L70) step to the CI workflow (partial: https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2430)
 - [ ] change codecov to use oidc instead of token
 - [ ] disable `pr-branch-non-default` octoguide rule
 - [ ] absorb `checkout` into the `setup` action and use `$/` for referencing it (https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax/)
@@ -62,25 +62,25 @@
 
 - [ ] change `editor.codeActionsOnSave` -> `source.fixAll.eslint` to `always`
 - [ ] remove `eslint.rules.customizations`
-- [ ] change `typescript.tsdk` to ` js/ts.tsdk.path` (deprecated)
+- [x] change `typescript.tsdk` to ` js/ts.tsdk.path` (deprecated) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2420)
 
 ## Other Code Changes
 
-- [ ] `knip.json` -> `knip.config.ts`
-- [ ] `.prettierrc.json` -> `prettier.config.ts`
+- [x] `knip.json` -> `knip.config.ts` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2398)
+- [x] `.prettierrc.json` -> `prettier.config.ts` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2424)
 - [ ] `simple-git-hooks` + `pretty-quick` instead of `lint-staged` + `prettier`
   - [ ] remove `prepare: "husky"` from package.json
   - [ ] add `.simple-git-hooks.js` to `eslint.config`'s allowDefaultProject
-- [ ] upgrade `pnpm` to v11
+- [ ] upgrade `pnpm` to v11 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2423)
 - [ ] add `pnpm-workspace.yaml` with `trustPolicy: no-downgrade` and `allowBuilds simple-git-hooks: true`
-- [ ] increase node version in nvmrc (24.18.0)
-- [ ] change engines to `^22.13.0 || ^24.11.0 || >=26.0.0`
-- [ ] update `tsdown` to 0.22.4
+- [x] increase node version in nvmrc (24.18.0) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2422)
+- [x] change engines to `^22.13.0 || ^24.11.0 || >=26.0.0` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2425)
+- [x] update `tsdown` to 0.22.4 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
 - [ ] update typescript to 6.0.3
-- [ ] update `eslint`, `@eslint/js` to v10
-- [ ] update `@eslint/markdown` to v8
-- [ ] update `knip` to v6
-- [ ] install `jiti` - [ ] required for `eslint.config.ts` support
+- [x] update `eslint`, `@eslint/js` to v10 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
+- [x] update `@eslint/markdown` to v8 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
+- [x] update `knip` to v6 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
+- [ ] install `jiti` (required for `eslint.config.ts` support)
 - [ ] add `"type": "./dist/index.d.mts"` to `exports` in `package.json`
 - [ ] change exports in `index.ts` to named exports and add `type` to types export
 - [ ] add Version input to Bug issue template
@@ -90,8 +90,8 @@
 
 ## GitHub Settings
 
-- [ ] Disable Projects
-- [ ] Enable "Limit how many branches and tags can be updated in a single push"
+- [x] Disable Projects (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2421)
+- [ ] Enable "Limit how many branches and tags can be updated in a single push" (https://github.com/JoshuaKGoldberg/create-typescript-app/issues/2391)
 
 ## Additional Info
 

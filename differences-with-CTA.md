@@ -8,7 +8,7 @@
 - [ ] when bundle is true, then only the `src/index.ts` needs to be the entry point, and that's already the default if it exists, so `entry` can be removed
 - [ ] `fixedExtension` -> true (the default)
   - [ ] index.js -> index.mjs in ci workflow and `package.json`
-- [ ] `dts` as true is already the default if types are defined, so this can be removed
+- [x] `dts` as true is already the default if types are defined, so this can be removed (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2385)
 
 ## tsconfig
 

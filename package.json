@@ -58,7 +58,7 @@
     "simple-git-hooks": "2.13.1",
     "tsdown": "0.22.14",
     "typescript": "6.0.3",
-    "typescript-eslint": "8.67.0",
+    "typescript-eslint": "8.68.0",
     "vitest": "4.1.11"
   },
   "packageManager": "pnpm@11.23.0",

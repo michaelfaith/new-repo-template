@@ -52,6 +52,7 @@
 - [ ] disable `pr-branch-non-default` octoguide rule
 - [ ] absorb `checkout` into the `setup` action and use `$/` for referencing it (https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax/)
 - [ ] migrate `pnpm/action-setup` to `pnpm/setup`
+- [ ] update `codecov/codecov-action` v5 -> v7
 
 ## Prettier Config
 
@@ -71,7 +72,7 @@
 - [ ] `simple-git-hooks` + `pretty-quick` instead of `lint-staged` + `prettier`
   - [ ] remove `prepare: "husky"` from package.json
   - [ ] add `.simple-git-hooks.js` to `eslint.config`'s allowDefaultProject
-- [ ] upgrade `pnpm` to v11 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2423)
+- [x] upgrade `pnpm` to v11 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2423)
 - [ ] add `pnpm-workspace.yaml` with `trustPolicy: no-downgrade` and `allowBuilds simple-git-hooks: true`
 - [x] increase node version in nvmrc (24.18.0) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2422)
 - [x] change engines to `^22.13.0 || ^24.11.0 || >=26.0.0` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2425)
@@ -87,6 +88,7 @@
 - [ ] remove code of conduct and typescript strict badges from `README.md`
 - [ ] remove `patch.enable: false` from renovate.json
 - [ ] add `package.json` and `prettier.config.ts` to cspell's `ignorePaths`
+- [ ] remove `ignoreDeps` from `.github/renovate.json`
 
 ## GitHub Settings
 

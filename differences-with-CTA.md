@@ -72,7 +72,7 @@
 - [ ] `simple-git-hooks` + `pretty-quick` instead of `lint-staged` + `prettier`
   - [ ] remove `prepare: "husky"` from package.json
   - [ ] add `.simple-git-hooks.js` to `eslint.config`'s allowDefaultProject
-- [ ] upgrade `pnpm` to v11 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2423)
+- [x] upgrade `pnpm` to v11 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2423)
 - [ ] add `pnpm-workspace.yaml` with `trustPolicy: no-downgrade` and `allowBuilds simple-git-hooks: true`
 - [x] increase node version in nvmrc (24.18.0) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2422)
 - [x] change engines to `^22.13.0 || ^24.11.0 || >=26.0.0` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2425)

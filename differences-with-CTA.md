@@ -52,6 +52,7 @@
 - [ ] disable `pr-branch-non-default` octoguide rule
 - [ ] absorb `checkout` into the `setup` action and use `$/` for referencing it (https://github.blog/changelog/2026-07-30-reference-same-repository-actions-with-self-repository-syntax/)
 - [ ] migrate `pnpm/action-setup` to `pnpm/setup`
+- [ ] update `codecov/codecov-action` v5 -> v7
 
 ## Prettier Config
 
@@ -87,6 +88,7 @@
 - [ ] remove code of conduct and typescript strict badges from `README.md`
 - [ ] remove `patch.enable: false` from renovate.json
 - [ ] add `package.json` and `prettier.config.ts` to cspell's `ignorePaths`
+- [ ] remove `ignoreDeps` from `.github/renovate.json`
 
 ## GitHub Settings
 

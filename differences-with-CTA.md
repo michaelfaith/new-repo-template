@@ -77,7 +77,7 @@
 - [x] increase node version in nvmrc (24.18.0) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2422)
 - [x] change engines to `^22.13.0 || ^24.11.0 || >=26.0.0` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2425)
 - [x] update `tsdown` to 0.22.4 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
-- [ ] update typescript to 6.0.3
+- [x] update typescript to 6.0.3
 - [x] update `eslint`, `@eslint/js` to v10 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
 - [x] update `@eslint/markdown` to v8 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
 - [x] update `knip` to v6 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)

@@ -61,7 +61,7 @@
 
 ## VSCode Settings
 
-- [ ] change `editor.codeActionsOnSave` -> `source.fixAll.eslint` to `always`
+- [x] change `editor.codeActionsOnSave` -> `source.fixAll.eslint` to `always`
 - [ ] remove `eslint.rules.customizations`
 - [x] change `typescript.tsdk` to ` js/ts.tsdk.path` (deprecated) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2420)
 
@@ -77,15 +77,14 @@
 - [x] increase node version in nvmrc (24.18.0) (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2422)
 - [x] change engines to `^22.13.0 || ^24.11.0 || >=26.0.0` (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2425)
 - [x] update `tsdown` to 0.22.4 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
-- [ ] update typescript to 6.0.3
+- [x] update typescript to 6.0.3
 - [x] update `eslint`, `@eslint/js` to v10 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
 - [x] update `@eslint/markdown` to v8 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
 - [x] update `knip` to v6 (https://github.com/JoshuaKGoldberg/create-typescript-app/pull/2399)
 - [ ] install `jiti` (required for `eslint.config.ts` support)
-- [ ] add `"type": "./dist/index.d.mts"` to `exports` in `package.json`
 - [ ] change exports in `index.ts` to named exports and add `type` to types export
 - [ ] add Version input to Bug issue template
-- [ ] remove code of conduct and typescript strict badges from `README.md`
+- [x] remove code of conduct and typescript strict badges from `README.md`
 - [ ] remove `patch.enable: false` from renovate.json
 - [ ] add `package.json` and `prettier.config.ts` to cspell's `ignorePaths`
 - [ ] remove `ignoreDeps` from `.github/renovate.json`

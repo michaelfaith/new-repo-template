@@ -1,6 +1,6 @@
 {
   "name": "new-repo-template",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Quickstart-friendly repo template with comprehensive, opinionated tooling.",
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "console-fail-test": "0.6.1",
     "cspell": "10.3.0",
     "eslint": "10.10.0",
-    "eslint-plugin-jsdoc": "64.3.10",
+    "eslint-plugin-jsdoc": "64.3.9",
     "eslint-plugin-jsonc": "3.4.2",
     "eslint-plugin-n": "18.3.0",
     "eslint-plugin-package-json": "1.8.0",
